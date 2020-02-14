@@ -1,0 +1,32 @@
+//******************** Impleneted task *******************
+(A) Basic Features [Target-1]
+	1. A user should be able to create notes, where each note is made up of some text.
+	2. One should be able to create s sub-note to a parent note by clicking on "New note" button.
+	3. There can be multiple top level notes which are created by entering text in the top input box and clicking "Create Note" button.
+	4. Ability to search. On search , it should show only the notes matching the search string.
+
+(B) Additional features [Target-2]
+	1. Ability to edit the text of the notes
+	2. Searching :
+		2.1 It should highlight the matching text in each Note
+		2.2 It should show the lineage of the matching note, for e.g. if a leaf note is matched it should show all its parent notes as well.
+	3. Persist the notes in local storage so that refreshing the page also comes up with existing notes
+	4. Ability to delete notes.	
+
+//******************** Not impleneted task *******************	
+	N.A.
+
+//******************** Things i would have taken care of if i had more time *******************	
+1. If a user delete the note then it should be persisted in local storage. When next time user refresh the page this application should not display the notes which was deleted by the user. I tried to handle this scenario but i could not handle it as whole.
+
+
+//******************** If your code handles SEO, accessibility, resposive design, performance.******
+1. I have handle the cases for responsive design using media query of CSS and it is working fine in desktop when you resize the window.
+
+
+//******************** Appication behaviour and browser compatibility **************
+1. This application is tested successfully on Chrome Version 78, Version 80 and Mozilla Firefox Version 66 and Version 72. So, it is better to test this application on this version only.
+2. I have observed that if an application is not deployed some server and we try to run the html page without deploying on the server then we can face browser compatibility issues. Because I have run this application on different machine with same browser version  and faced the same problem. Specially I faced with Firefox.
+
+
+
